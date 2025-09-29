@@ -115,7 +115,7 @@ export default function HangmanGame() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Jogo da Forca - Futebolistica</h1>
+      <h1 className={styles.title}>Jogo da Forca Futebolistico</h1>
 
       <div className={styles.gameStatus}>
         {isWinner && "Parabéns, você venceu! 🎉"}
