@@ -6,7 +6,7 @@ import styles from './Hangman.module.css';
 // Lista de palavras + dicas
 const WORDS = [
   // Times Brasileiros
-  { word: "SANTA CRUZ", hint: "Clube pernambucano que já teve um goleiro como artilheiro do campeonato estadual" },
+  { word: "SANTA CRUZ", hint: "Clube nordestino conhecido como 'O mais querido'"},
   { word: "FLAMENGO", hint: "Seu departamento de remo foi fundado antes do futebol; tem a maior torcida do Brasil" },
   { word: "PALMEIRAS", hint: "Fundado por imigrantes italianos; foi campeão paulista no primeiro ano de existência" },
   { word: "SAO PAULO", hint: "Detém o recorde mundial de maior público em jogos noturnos no Morumbi" },
