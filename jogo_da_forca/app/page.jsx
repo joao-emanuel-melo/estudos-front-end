@@ -41,7 +41,7 @@ const WORDS = [
 ];
 
 // Letras do teclado virtual
-const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('');
+const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ".split('');
 
 const HangmanDrawing = ({ numberOfGuesses }) => {
   const HEAD = <div key="head" className={styles.head} />;
@@ -115,7 +115,7 @@ export default function HangmanGame() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Jogo da Forca Futebolistico⚽</h1>
+      <h1 className={styles.title}>Jogo da Forca Futebolístico⚽</h1>
 
       <div className={styles.gameStatus}>
         {isWinner && "Parabéns, você acertou essa!🎉"}
