@@ -118,7 +118,7 @@ export default function HangmanGame() {
       <h1 className={styles.title}>Jogo da Forca Futebolistico⚽</h1>
 
       <div className={styles.gameStatus}>
-        {isWinner && "Parabéns, você venceu! 🎉"}
+        {isWinner && "Parabéns, você acertou essa!🎉"}
         {isLoser && `Você perdeu! A palavra era: ${wordToGuess}`}
       </div>
 
@@ -139,10 +139,10 @@ export default function HangmanGame() {
         ))}
       </div>
 
-      {/* Botão e caixa de Dica */}
+      {/* Botão e caixa da Dica */}
       {!showHint && !isWinner && !isLoser && (
         <button onClick={() => setShowHint(true)} className={styles.hintButton}>
-          Mostrar Dica
+          Mostre-me uma dica!
         </button>
       )}
       {showHint && <p className={styles.hint}>💡 {hint}</p>}
